@@ -1,0 +1,44 @@
+.tn {
+    background-color: #eff0ef;
+}
+
+.twwcd {
+    background-color: #e9494a;
+    text-align: center;
+    color: #ffffff;
+}
+
+.thead {
+    background-color: #e9494a;
+    color: #1b1919;
+    text-align: center;
+}
+
+.tteam {
+    text-align: center;
+    color: #ffffff;
+}
+
+.tpp {
+    text-align: center;
+    color: #ffffff;
+}
+
+.tkp {
+    text-align: center;
+    color: #ffffff;
+}
+
+.ttp {
+    color: #ffffff;
+}
+
+.rtable {
+    color: #ffffff;
+    font-weight: bolder;
+    display: none;
+}
+
+.datat {
+    display: block;
+}

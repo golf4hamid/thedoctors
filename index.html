@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>Results Calculating</title>
+        <!-- Bootstrap core CSS -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <script type="text/javascript" src="calculate.js"></script>
+        <!-- Custom styles for this template -->
+        <link href="style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alfa+Slab+One">
+    </head>
+    <body>
+        <div class="container datat">
+            <h1>Results Calculator</h1>
+            <p>Made By a Doctor for The Doctors Clan!</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 1 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 2 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 3 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 4 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 5 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 6 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 7 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 8 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 9 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 10 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 11 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 12 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 13 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 14 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 15 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 16 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 17 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-md-4">
+                    <form role="form"> 
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <h2>Team 18 Stats</h2>
+                                    <div class="form-group"> 
+                                        <input type="text" class="form-control teamName" id="exampleInputEmail1" placeholder="Team Name">
+                                        <input type="number" class="form-control m1k" id="exampleInputEmail1" placeholder="1st Map Kills">
+                                        <input type="number" class="form-control m2k" id="exampleInputEmail1" placeholder="2nd Map Kills">
+                                        <input type="number" class="form-control m3k" id="exampleInputEmail1" placeholder="3rd Map Kills">
+                                        <input type="number" class="form-control m1p" id="exampleInputEmail1" placeholder="1st Map Position">
+                                        <input type="number" class="form-control m2p" id="exampleInputEmail1" placeholder="2nd Map Position">
+                                        <input type="number" class="form-control m3p" id="exampleInputEmail1" placeholder="3rd Map Position"> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                         
+                    </form>                     
+                </div>
+                <div class="col-12"> 
+</div>
+                <button type="button" class="btn btn-lg btn-block btn-primary" onclick="result()">Calculate</button>
+            </div>
+        </div>
+        <div class="container text-white position-relative rtable col-12" style="background-image: url('assets/img/825336.jpg'); background-position: center top; background-attachment: scroll; background-size: cover; background-clip: padding-box; height: 100%;">
+            <div class="row col-12">
+                <div class="col-10 offset-1">
+                    <div class="container" style="margin-top: 25px;">
+                        <div class="row">
+                            <div class="col-10 offset-1 text-center">
+                                <h2 class="d-block" style="font-family: Alfa Slab One;">The Doctors Esports Pro Scrims</h2> 
+                            </div>
+                            <div class="text-center col-4 offset-4">
+                                <img src="assets/img/1631791074341-1.png" class="text-center d-block" height="200px" width="200px"> 
+                            </div>
+                        </div>
+                    </div>
+                    <table class="table" style="background-color: #e5ab18;"> 
+                        <thead> 
+                            <tr> 
+                                <th class="thead">#</th> 
+                                <th class="thead">Team Name</th> 
+                                <th class="thead">WWCD</th> 
+                                <th class="thead">Place Pts</th>
+                                <th class="thead">Kill Pts</th>
+                                <th class="thead">Total Pts</th> 
+                            </tr>                             
+                        </thead>                         
+                        <tbody> 
+                            <tr> 
+                                <th scope="row" class="tn">01</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">02</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">03</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">04</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">05</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">06</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">07</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">08</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">09</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">10</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">11</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">12</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">13</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">14</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">15</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">16</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">17</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>
+                            <tr> 
+                                <th scope="row" class="tn">18</th> 
+                                <td class="tteam"></td> 
+                                <td class="twwcd"></td> 
+                                <td class="tpp"></td>
+                                <td class="tkp"></td>
+                                <td class="ttp"></td> 
+                            </tr>                             
+                        </tbody>                         
+                    </table>                     
+                </div>
+            </div>
+            <img src="assets/img/1629595226876.png" width="200px" class="position-absolute" style="top: 0; left: 5px;">
+            <img src="assets/img/1629595226876.png" width="200px" class="position-absolute" style="top: 0; right: 0;">
+            <img src="assets/img/1629595226876.png" width="200px" style="bottom: 0; left: 5;">
+            <img src="assets/img/1629595226876.png" width="200px" style="bottom: 0; right: 0;" class="position-absolute">
+        </div>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+    </body>
+</html>
